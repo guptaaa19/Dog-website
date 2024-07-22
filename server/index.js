@@ -8,7 +8,7 @@ const jwt = require("jsonwebtoken");
 const { authenticateToken } = require("./utilities/utilities");
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 // Connect to the database
 mongoose.connect(config.connectionstring, { useNewUrlParser: true, useUnifiedTopology: true })
