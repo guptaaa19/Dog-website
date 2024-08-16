@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 import { Outlet, useNavigate} from 'react-router-dom'
 import axiosInstance from './Utils/AxiosInstance'

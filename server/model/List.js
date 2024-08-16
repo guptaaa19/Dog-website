@@ -6,4 +6,6 @@ const ListSchema = new mongoose.Schema({
     images: [String],
     user: { type: mongoose.Schema.Types.ObjectId, ref: 'User' }
 });
+
+
 module.exports = mongoose.model('List', ListSchema);

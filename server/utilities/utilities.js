@@ -1,3 +1,5 @@
+// This file contains utility functions, including the authenticateToken middleware for verifying JWT tokens.
+
 const jwt = require('jsonwebtoken')
 // jwt token
 function authenticateToken(req,res,next) {
